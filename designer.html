@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Конструктор дымохода — сборка</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="designer-container">
+    <div class="elements-panel">
+      <div class="panel-title">Добавьте элемент:</div>
+      <div class="elements-list" id="elements-list"></div>
+    </div>
+    <div class="schematic-panel">
+      <div class="panel-title">Схема дымохода:</div>
+      <div id="svg-scheme"></div>
+      <div>
+        <button onclick="removeLast()" class="action-btn">Удалить последний</button>
+      </div>
+      <div class="spec-panel">
+        <div class="panel-title">Спецификация:</div>
+        <ul id="spec-list"></ul>
+        <div id="spec-total"></div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/designer.js"></script>
+</body>
+</html>
